@@ -1,0 +1,19 @@
+.{
+    .name = "Gfx-Win32",
+    .version = "0.0.0",
+    .dependencies = .{
+        .@"zig-win32" = .{
+            .path = "deps/zig-win32",
+            .lazy = true,
+        },
+    },
+    .paths = .{
+        "README.md",
+        "build.zig",
+        "build.zig.zon",
+        "flake.lock",
+        "flake.nix",
+        "src",
+        "deps",
+    },
+}
